@@ -969,6 +969,7 @@ body {
 }
 .about--banner img {
   position: absolute;
+  max-width: 100%;
   bottom: -90px;
   right: -12px;
 }
@@ -990,15 +991,6 @@ body {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-}
-.about--options > a:nth-child(1) {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png");
-}
-.about--options > a:nth-child(2) {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png");
-}
-.about--options > a:nth-child(3) {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png");
 }
 .about--options > a:hover h3 {
   bottom: -50px;
@@ -1078,7 +1070,7 @@ body {
 }
 .my_face img {
   position: absolute;
-  bottom: 35%;
+  bottom: 25%;
   right: 50%;
   max-width: 20%;
 }
